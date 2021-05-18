@@ -40,7 +40,7 @@ console.log("Inhalt: " + test);
 
 
 /***** Variablen 02 *******/
-
+/*
 //Deklaration
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark;
@@ -57,8 +57,14 @@ birthYearMark = year - ageMark;
 console.log("Aktuelles Jahr: " + year);
 console.log("Geburtsjahr John: " + birthYearJohn);
 console.log("Geburtsjahr John: " + birthYearMark);
+*/
 
 
+/***** Variablen 02 *******/
+let ageJohn, ageMark;
+ageJohn = 25;
+ageMark = 30;
 
-
-
+//Operation (Vergleich / Test)
+let isJohnOlder = (ageJohn > ageMark);
+console.log("John ist älter: " + isJohnOlder);
