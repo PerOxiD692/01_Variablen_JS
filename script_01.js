@@ -71,3 +71,18 @@ let isJohnOlder = (ageJohn > ageMark);
 console.log("John ist älter: " + isJohnOlder);
 */
 
+
+/***** Variablen 04 *******/
+// Zusammenfassung Datentypen
+/*
+let nix;
+let ageJohn = 25;
+let firstName = "Max";
+let isJohnOlder = (10 > 5);
+
+
+console.log("nix: " + typeof nix);
+console.log("ageJohn: " + "25 = "+ typeof ageJohn);
+console.log("firstName: " + "Max = " + typeof firstName);
+console.log("isJohnOlder: " + "(10 > 5) = " + typeof isJohnOlder);
+*/
