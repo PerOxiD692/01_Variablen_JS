@@ -19,3 +19,12 @@ let familyName = "Mustermann";  // Deklaration + Wertzuweisung
 console.log(familyName); // Ausgabe
 console.log(firstName + " " + familyName);
 */
+
+
+// Deklaration + Wertzuweisung II
+/*
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben:");
+familyName = prompt("Bitte Nachnamen eingeben");
+console.log("Hallo, " + firstName + " " + familyName + "!");
+*/
