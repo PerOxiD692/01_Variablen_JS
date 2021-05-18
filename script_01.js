@@ -28,3 +28,18 @@ firstName = prompt("Bitte Vornamen eingeben:");
 familyName = prompt("Bitte Nachnamen eingeben");
 console.log("Hallo, " + firstName + " " + familyName + "!");
 */
+
+// Java Script ist eine untypisierte Sprache! | untyped
+/*
+let test; // Deklaration
+test = "hi"; // sting
+test = 2; // number
+test = true; // boolean
+console.log("Typ: " + typeof test);
+console.log("Inhalt: " + test);
+*/
+
+
+
+
+
