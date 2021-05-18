@@ -20,7 +20,6 @@ console.log(familyName); // Ausgabe
 console.log(firstName + " " + familyName);
 */
 
-
 // Deklaration + Wertzuweisung II
 /*
 let firstName, familyName;
@@ -38,6 +37,26 @@ test = true; // boolean
 console.log("Typ: " + typeof test);
 console.log("Inhalt: " + test);
 */
+
+
+/***** Variablen 02 *******/
+
+//Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung | Assignment
+let date = new Date();
+let year = date.getFullYear();
+ageJohn = 25;
+ageMark = 30;
+
+// Operation (Differenz)
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+console.log("Aktuelles Jahr: " + year);
+console.log("Geburtsjahr John: " + birthYearJohn);
+console.log("Geburtsjahr John: " + birthYearMark);
 
 
 
